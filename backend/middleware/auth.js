@@ -21,7 +21,7 @@ const requireRole = (requiredRole) => {
   };
 };
 
-// ==================== RATE LIMITER (Future Use) ====================
+// ==================== RATE LIMITER ====================
 const rateLimit = (maxRequests = 100, windowMs = 60000) => {
   const requests = new Map();
   
